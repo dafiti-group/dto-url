@@ -4,7 +4,7 @@
     "keywords": ["dafiti", "tricae", "kanui"],
     "type": "library",
     "require": {
-        "tricae/dto-context": "0.1.6"
+        "tricae/dto-context": "0.1.7"
     },
     "require-dev": {
         "phploc/phploc": "@stable",

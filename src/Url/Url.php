@@ -101,7 +101,7 @@ class Url extends Datawrapper\Base
             }
         }
 
-        return implode($this->fullUrl);
+        return ltrim(implode($this->fullUrl), '/');
     }
 
     /**

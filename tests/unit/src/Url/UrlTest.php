@@ -49,7 +49,7 @@ class UrlTest extends \PHPUnit_Framework_TestCase
 
     public function testApiPartial()
     {
-        $expected = "/api/2/kanui/product";
+        $expected = "api/2/kanui/product";
         $urlParts = [
             'path' => [
                 'api', 

@@ -2,8 +2,6 @@
 
 namespace GFG\DTOUrl;
 
-use GFG\DTOContext\DataWrapper;
-
 /**
  * @SuppressWarnings(PHPMD.UnusedPrivateField)
  * @method string getScheme()
@@ -108,7 +106,7 @@ class Url extends Datawrapper\Base
      * Add host to the final url
      *
      * @param string $host
-     * @return Base
+     * @return Url
      */
     public function addHost($host)
     {
@@ -120,7 +118,7 @@ class Url extends Datawrapper\Base
      * Add port to the final url
      *
      * @param string $port
-     * @return Base
+     * @return Url
      */
     public function addPort($port)
     {
@@ -132,7 +130,7 @@ class Url extends Datawrapper\Base
      * Add scheme to the final url
      *
      * @param string $scheme
-     * @return Base
+     * @return Url
      */
     public function addScheme($scheme)
     {
@@ -145,7 +143,7 @@ class Url extends Datawrapper\Base
      * added in this stage
      *
      * @param string $user
-     * @return Base
+     * @return Url
      */
     public function addUser($user)
     {
@@ -161,7 +159,7 @@ class Url extends Datawrapper\Base
      * Add paths to the final url
      *
      * @param string $path
-     * @return Base
+     * @return Url
      */
     public function addPath($path)
     {
@@ -173,7 +171,7 @@ class Url extends Datawrapper\Base
      * Add query string to the final url
      *
      * @param string $query
-     * @return Base
+     * @return Url
      */
     public function addQuery($query)
     {
@@ -191,7 +189,7 @@ class Url extends Datawrapper\Base
      * Add fragment to the final url
      *
      * @param string $fragment
-     * @return Base
+     * @return Url
      */
     public function addFragment($fragment)
     {
@@ -203,7 +201,7 @@ class Url extends Datawrapper\Base
      * Replace path values
      *
      * @param associative array $replace
-     * @return Base
+     * @return Url
      */
     public function replacePath(array $replace)
     {
@@ -214,7 +212,7 @@ class Url extends Datawrapper\Base
      * Replace query string values
      *
      * @param associative array $replace
-     * @return Base
+     * @return Url
      */
     public function replaceQuery(array $replace)
     {

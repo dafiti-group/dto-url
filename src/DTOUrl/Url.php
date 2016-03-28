@@ -2,6 +2,8 @@
 
 namespace GFG\DTOUrl;
 
+use GFG\DTOContext\DataWrapper;
+
 /**
  * @SuppressWarnings(PHPMD.UnusedPrivateField)
  * @method string getScheme()
@@ -170,10 +172,10 @@ class Url extends Datawrapper\Base
     /**
      * Add query string to the final url
      *
-     * @param string $query
+     * @param array $query
      * @return Url
      */
-    public function addQuery($query)
+    public function addQuery(array $query)
     {
         $queryParts = [];
         foreach ($query as $key => $value) {

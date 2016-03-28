@@ -1,8 +1,8 @@
 <?php
 
-namespace Url;
+namespace GFG\DTOUrl;
 
-use Context\DataWrapper;
+use GFG\DTOContext\DataWrapper;
 
 /**
  * @SuppressWarnings(PHPMD.UnusedPrivateField)
@@ -14,14 +14,14 @@ use Context\DataWrapper;
  * @method array getPath()
  * @method array getQuery()
  * @method string getFragment()
- * @method \Iris\Context\Url\Base setScheme(string $scheme)
- * @method \Iris\Context\Url\Base setHost(string $host)
- * @method \Iris\Context\Url\Base setPort(string $port)
- * @method \Iris\Context\Url\Base setUser(string $user)
- * @method \Iris\Context\Url\Base setPass(string $pass)
- * @method \Iris\Context\Url\Base setPath(array $path)
- * @method \Iris\Context\Url\Base setQuery(array $query)
- * @method \Iris\Context\Url\Base setFragment(string $fragment)
+ * @method Url setScheme(string $scheme)
+ * @method Url setHost(string $host)
+ * @method Url setPort(string $port)
+ * @method Url setUser(string $user)
+ * @method Url setPass(string $pass)
+ * @method Url setPath(array $path)
+ * @method Url setQuery(array $query)
+ * @method Url setFragment(string $fragment)
  */
 class Url extends Datawrapper\Base
 {

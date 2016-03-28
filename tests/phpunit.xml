@@ -8,7 +8,7 @@
 
     <testsuites>
         <testsuite name="context">
-            <directory>unit/src/Url</directory>
+            <directory>unit/src/DTOUrl</directory>
         </testsuite>
     </testsuites>
 

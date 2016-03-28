@@ -1,10 +1,9 @@
 {
-    "name": "tricae/dto-url",
+    "name": "gfg/dto-url",
     "description": "Library to handle and wrap URL informations",
-    "keywords": ["dafiti", "tricae", "kanui"],
     "type": "library",
     "require": {
-        "tricae/dto-context": "0.1.*"
+        "gfg/dto-context": "1.0.*"
     },
     "require-dev": {
         "phploc/phploc": "@stable",
@@ -24,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Url\\": ["src/Url", "tests/unit/src/Url"]
+            "GFG\\DTOUrl\\": ["src/DTOUrl", "tests/unit/src/DTOUrl"]
         }
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Url;
+namespace GFG\DTOUrl;
 
 class UrlTest extends \PHPUnit_Framework_TestCase
 {

@@ -1,3 +1,6 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/GFG/dto-url/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/GFG/dto-url/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/GFG/dto-url/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/GFG/dto-url/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/GFG/dto-url/badges/build.png?b=master)](https://scrutinizer-ci.com/g/GFG/dto-url/?branch=master)
+[![Latest Stable Version](https://poser.pugx.org/gfg/dto-url/v/stable)](https://packagist.org/packages/gfg/dto-url)
+[![Total Downloads](https://poser.pugx.org/gfg/dto-url/downloads)](https://packagist.org/packages/gfg/dto-url)
+[![License](https://poser.pugx.org/gfg/dto-url/license)](https://packagist.org/packages/gfg/dto-url)

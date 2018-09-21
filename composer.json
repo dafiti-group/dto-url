@@ -1,10 +1,16 @@
 {
-    "name": "gfg/dto-url",
+    "name": "dafiti-group/dto-url",
     "description": "Library to handle and wrap URL informations",
     "type": "library",
-    "license": "GPL-3.0",
+    "license": "proprietary",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:dafiti-group/dto-context.git"
+        }
+    ],
     "require": {
-        "gfg/dto-context": "1.0.*"
+        "dafiti-group/dto-context": "1.0.*"
     },
     "require-dev": {
         "phploc/phploc": "@stable",
